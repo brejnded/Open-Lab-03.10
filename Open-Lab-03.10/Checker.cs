@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Open_Lab_03._10
 {
@@ -6,7 +6,7 @@ namespace Open_Lab_03._10
     {
         public int GetNumberOfCharsInString(char letter, string str)
         {
-            throw new NotImplementedException();
+            return str.Split(letter).Length - 1;
         }
     }
 }
